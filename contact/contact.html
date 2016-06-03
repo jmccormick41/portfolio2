@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="form.css" />
+</head>
+
+<body>
+
+<!-- XHTML Form Parameters for Huggins Email Form Script V2.2.4 --> 
+<!-- This version is for XHTML users -->
+<form id="contact" action="http://www.expression-web-tutorials.com/huggins-email-form-script-v2.2.5" method="post">
+	<fieldset>
+	<legend>Contact me if you want to talk about your project!!!</legend>
+	<!-- Note that some tag must exist between the form statement and the first input statement -->
+	<!-- Set this field to "yes" if you are running on a Windows Server -->
+	<input type="hidden" name="FormPleaseForgiveMyUseOfAWindowsServer" value="" />
+	<!-- Set this field to "yes" to have the script scan the form and give you form info -->
+	<input name="FormOutputFieldInfo" type="hidden" value="" />
+	<!-- Use this field to specify the name of a CSV File on the server to receive input -->
+	<input type="hidden" name="FormCSVFileName" value="" />
+	<!-- Use this field to specify what page to "go to" after processing -->
+	<input name="FormNextURL" type="hidden" value="http://www.expression-web-tutorials.com/thank-you.html" />
+	<!-- Use this field to specify the fields -->
+	<input name="FormFieldNameLabelPlusList" type="hidden" value="
+
+	
+	yourname, Name, R, 0, 0, 
+	emailaddress, Email Address, R, 0, 0,
+	BLANKLINE, 
+	emailaddressconfirmation, Confirm Email Address, E, 0, 0, 
+
+	message, Message, N,0, 0,
+	ip, IP Address, N, 0, 0,
+	browser, Browser Information, N, 0, 0,
+	referer, Referer Page, N, 0, 0 " />
+	<!-- Use this field to specify custom field edits -->
+	<input name="FormFieldNameEditList" type="hidden" value="
+        winter, captcha, cold, ~, 
+        email, attraction, ~" />
+	<!-- Use these fields if you want the user to get a copy of his entry -->
+	<input name="FormEchoUser" type="hidden" value="yes" />
+	<input name="FormEmailFieldList" type="hidden" value="emailaddress, emailaddressconfirmation" />
+	<input name="FormNameFieldList" type="hidden" value="" />
+	<!-- Use these fields to format the error page -->
+	<input name="FormErrorPageHeading1" type="hidden" value="Test Error Form, , , , ,error-page-heading1" />
+	<input name="FormErrorPageHeading2" type="hidden" value="Form Processing Error Page, , , , ,error-page-heading2" />
+	<input name="FormErrorPageLinEClosing" type="hidden" value="Please press the BACK button ~ correct the errors and resubmit., , , , ,error-page-line-closing" />
+	<input name="FormErrorPageLineOpening" type="hidden" value="The form you submitted had the following errors:, , , , ,error-page-line-opening" />
+	<input name="FormErrorPageTitle" type="hidden" value="Error Page - Sample Error Page" />
+	<input name="FormErrorPageFooter" type="hidden" value=",,,,,error-page-footer" />
+	<input name="FormErrorPageErrorMsg" type="hidden" value=",,,,,error-msg" />
+	<input name="FormErrorPageTemplate" type="hidden" value="hefs-error-template.html" />
+	<input name="FormErrorPageTrackingInfo" type="hidden" value="" />
+	<!-- Use these fields to turn off error checking -->
+	<input name="FormTestEmailFormat" type="hidden" value="" />
+	<input name="FormTestEmailDomain" type="hidden" value="" />
+	<input name="FormTestFieldMinLengths" type="hidden" value="" />
+	<input name="FormTestFieldMaxLengths" type="hidden" value="" />
+	<input name="FormTestInjectionExploits" type="hidden" value="" />
+	<!-- Use these fields to customize Message 1 -->
+	<input name="Msg1AddrList" type="hidden" value="FP2EW Tutors, tutors, frontpage-to-expression.com" />
+	<input name="Msg1DefaultFromAddr" type="hidden" value="" />
+	<input name="Msg1FieldLabelValueSeparator" type="hidden" value="" />
+	<input name="Msg1FieldLabelValueSeparator" type="hidden" value="" />
+	<input name="Msg1FieldNameExcludeList" type="hidden" value="" />
+	<input name="Msg1FieldNameLabelList" type="hidden" value="" />
+	<input name="Msg1FieldNameValueSubstitutionList" type="hidden" value="" />
+	<input name="Msg1ForceDefaultFromAddr" type="hidden" value="no" />
+	<input name="Msg1Subject" type="hidden" value="Sample Contact Form" />
+	<input name="Msg1SubjectField" type="hidden" value="" />
+	<input name="Msg1TextBottom" type="hidden" value="End of Message" />
+	<input name="Msg1TextTop" type="hidden" value="I am testing the sample form to see how it works:" />
+	<!-- Use these fields to customize Message 2 -->
+	<input name="Msg2AddrList" type="hidden" value="" />
+	<input name="Msg2DefaultFromAddr" type="hidden" value="" />
+	<input name="Msg2FieldLabelValueSeparator" type="hidden" value="" />
+	<input name="Msg2FieldNameExcludeList" type="hidden" value="" />
+	<input name="Msg2FieldNameLabelList" type="hidden" value="" />
+	<input name="Msg2FieldNameValueSubstitutionList" type="hidden" value="" />
+	<input name="Msg2ForceDefaultFromAddr" type="hidden" value="no" />
+	<input name="Msg2Subject" type="hidden" value="" />
+	<input name="Msg2SubjectField" type="hidden" value="" />
+	<input name="Msg2TextBottom" type="hidden" value="" />
+	<input name="Msg2TextTop" type="hidden" value="" />
+	<!-- Use these fields to customize the email the user receives -->
+	<input name="MsgEchoFromAddr" type="hidden" value="" />
+	<input name="MsgEchoFieldLabelValueSeparator" type="hidden" value="" />
+	<input name="MsgEchoFieldNameExcludeList" type="hidden" value="" />
+	<input name="MsgEchoFieldNameLabelList" type="hidden" value="" />
+	<input name="MsgEchoFieldNameValueSubstitutionList" type="hidden" value="" />
+	<input name="MsgEchoSubject" type="hidden" value="" />
+	<input name="MsgEchoSubjectField" type="hidden" value="" />
+	<input name="MsgEchoTextBottom" type="hidden" value="" />
+	<input name="MsgEchoTextTop" type="hidden" value="" />
+	<p><label for="yourname">Your Name: (required)</label>
+	<input id="yourname" class="fb" accesskey="f" maxlength="60" name="yourname" size="60" tabindex="1" title="Text input: Type Your Name" type="text" /></p>
+	<p><label for="emailaddress">Email Address: (required)</label>
+	<input id="emailaddress" class="fb" maxlength="60" name="emailaddress" size="60" tabindex="2" title="Text input: Type Your Email Address" type="text" />
+	</p>
+	<p><label for="emailaddressconfirmation">Confirm Email Address: (required)</label>
+	<input id="emailaddressconfirmation" class="fb" maxlength="60" name="emailaddressconfirmation" size="60" tabindex="3" title="Text input: Confirm Your Email Address" type="text" /></p>
+	<p><label for="message">Your Message:</label><textarea id="message" class="fb" cols="45" name="message" rows="5" tabindex="7" title="Text input: Type Your Message"></textarea></p>
+	
+	<input tabindex="6" type="submit" value="Send the Message" class="button" /> </fieldset>
+</form>
+ 
+
+</body>
+
+</html>

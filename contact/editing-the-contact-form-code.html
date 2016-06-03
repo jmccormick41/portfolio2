@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Editing the Contact Form Code</title>
+<style type="text/css">
+h2 {
+	font-size: 1.2em;
+	padding: 5px 0px 5px 5px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background-image: url('../images/header-bg.jpg');
+	background-repeat: no-repeat;
+}
+h1, h2, h3 {
+	/*color: #980E10;*/
+	margin: 20px 0px 20px 0px;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-family: Palatino, "Palatino Linotype", Georgia,"Times New Roman", Times, serif;
+}
+a:link {
+	font-weight: bold;
+	color: #A70303;
+	background: transparent;
+	text-decoration: underline;
+}
+.highlight {
+	background-color: #FFFF66;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 style="outline: 0;">Editing the Contact Form Code</h1>
+<p style="outline: 0;"><strong>IMPORTANT NOTE</strong>: This package does <strong>NOT</strong> contain James script, you will need to download it from his site. This form uses version 2.2.5 of the Huggins script (the most current version at the time this form was created. If you have used an earlier version of this form, you CAN NOT JUST UPDATE the script, the form itself needs to be updated.</p>
+<p>In order for the contact form to work for you, the following lines (<span class="highlight" style="outline: 0;">highlighted</span>)&nbsp; must be edited with YOUR information. Editing should be done <strong>BEFORE</strong> you attach any DWT you choose to use. <strong>Be extremely careful in editing the various lines that you do NOT delete (.) periods, (,) commas and (&quot; &quot;) quote marks.</strong></p>
+<p>For much more information on just what this form script is capable of, and for the full documentation file see <a title="Huggins' Email Form Script." href="http://www.jamesshuggins.com/h/hefs/huggins-email-form-script.htm">Huggins&#39; Email Form Script</a>.</p>
+<p>The styling for the sample form as well as the error page comes from the attached external style sheet form.css. You can leave it attached or you can copy the styles into your already existing style sheet. </p>
+<hr />
+<p><strong>Line 14</strong>: &lt;form id=&quot;contact&quot; action=&quot;<span class="highlight" style="outline: 0;">http://www.your-domain-name.com</span>/huggins-email-form-script-v<span style="outline: 0;" class="highlight">2.2.5</span>&quot; method=&quot;post&quot;&gt;</p>
+<p>Publish the php script to the root of your domain and change the highlighted text to your domain name. Make sure you are using the latest version of James script by checking the version available at <a title="Huggins' Email Form Script." href="http://www.jamesshuggins.com/h/hefs/huggins-email-form-script.htm">Huggins&#39; Email Form Script</a>. Make sure the path above points to exactly where the script is located and that the version numbers match. An earlier version of the sample form will NOT work with the latest script version 2.2.5.</p>
+<p>The script that you download from James site has the name huggins-email-form-script-v2.2.5.php5.txt. <strong>NB</strong>: the file is distributed with a .txt suffix. Please rename by removing the final “.txt”. In addition, your server may not be able to process files named with a “.php5” extension. In this case, please change your file extension to “.php”. </p>
+<p><strong>Line 25</strong>: &lt;input name=&quot;FormNextURL&quot; type=&quot;hidden&quot; value=&quot;<span class="highlight" style="outline: 0;">http://www.your-domain-name.com</span>/thank-you.html&quot; /&gt;</p>
+<p>Create or edit the included thank-you.html page and change the above highlighted text to your domain name.&nbsp; If you rename the sample page, make sure you also change the file name above..</p>
+<p><strong>Line 44</strong>: &lt;input name=&quot;FormEchoUser&quot; type=&quot;hidden&quot; value=&quot;<span class="highlight" style="outline: 0;">yes</span>&quot; /&gt;</p>
+<p>Change to no if you do NOT want the user to receive a copy of the generated email.</p>
+<p><strong>Line 48</strong>: &lt;input name=&quot;FormErrorPageHeading1&quot; type=&quot;hidden&quot; value=&quot;<span class="highlight" style="outline: 0;">Test </span>Error Form, , , , ,error-page-heading1&quot; /&gt;</p>
+<p>Change to the Text you want to appear as the H1 heading on your Error Page</p>
+<p><strong>Line 52</strong>: &lt;input name=&quot;FormErrorPageTitle&quot; type=&quot;hidden&quot; value=&quot;Error Page - <span class="highlight" style="outline: 0;">Sample Error Page</span>&quot; /&gt;</p>
+<p>Change to what you want to appear at the top of the browser window for the error page.<br />
+</p>
+<p><strong>Line 64</strong>: &lt;input name=&quot;Msg1AddrList&quot; type=&quot;hidden&quot; value=&quot;<span class="highlight" style="outline: 0;">FP2EW Tutors, tutors, frontpage-to-expression.com</span>&quot; /&gt;</p>
+<p>Change to reflect your own email information</p>
+<p><strong>Line 72</strong>: &lt;input name=&quot;Msg1Subject&quot; type=&quot;hidden&quot; value=&quot;<span class="highlight" style="outline: 0;">Sample Contact Form</span>&quot; /&gt;</p>
+<p>Change to what YOU want to see in the Subject of the email you receive.</p>
+<p><strong>Line 75</strong>: &lt;input name=&quot;Msg1TextTop&quot; type=&quot;hidden&quot; value=&quot;<span class="highlight" style="outline: 0;">I am testing the sample form to see how it works</span>:&quot; /&gt;</p>
+<p>Change to what you want to see as the top line of text in the content of the email you receive.</p>
+<p><strong>Lines 89-97</strong>: These lines are used to indicate what will appear on the email the user of the form receives IF you want it to be different than the one you receive.</p>
+				<p><strong>IMPORTANT</strong>: If you are using an earlier version of the contact form, please note the following lines of code have changed (new code is shown):</p>
+				<p>&lt;input name=&quot;FormErrorPageLin<span class="highlight" style="outline: 0px;">E</span>Closing&quot; type=&quot;hidden&quot; value=&quot;Please press the BACK button ~ correct the errors and resubmit., , , , ,error-page-line-closing&quot; /&gt;</p>
+				<p>&lt;input name=&quot;FormErrorPageLineOpening&quot; type=&quot;hidden&quot; value=&quot;The form you submitted had the following errors:, , , , ,error-page-line-opening&quot; /&gt;</p>
+				<p>&lt;input name=&quot;FormErrorPageFooter&quot; type=&quot;hidden&quot; value=&quot;,,,,,<span class="highlight" style="outline: 0px;">error-page-footer</span>&quot; /&gt;</p>
+				<p>&lt;input name=&quot;FormErrorPageErrorMsg&quot; type=&quot;hidden&quot; value=&quot;,,,,,<span class="highlight" style="outline: 0px;">error-msg</span>&quot; /&gt;</p>
+<p>Examples of More Complex Forms:</p>
+<ul>
+	<li><a title="Family Group Sheet." href="http://www.family-genealogy-online.com/family-group-sheet.htm">Family Group Sheet </a>for Genealogists</li>
+	<li><a title="Owens Order Form." href="http://www.jarheadtop.com/orderform.htm">Owens Order Form</a></li>
+</ul>
+<p>As you can see from the above examples, there is much more available that you can do with <a title="Huggins' Email Form Script." href="http://www.jamesshuggins.com/h/hefs/huggins-email-form-script.htm">Huggins&#39; Email Form Script</a> </p>
+<p>Copyright © Pat Geary of <a title="Expression Web Tutorials and Templates." href="http://www.expression-web-tutorials.com/">Expression Web Tutorials and Templates</a><br />
+Written March 2011<br />
+Updated March 2013</p>
+
+</body>
+
+</html>
