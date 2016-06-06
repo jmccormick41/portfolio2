@@ -125,7 +125,37 @@ a:hover {
     margin-left: 70px;
 }
 
- h2{color: blue; text-align:center; font-family: Bakersville;}
+ h2 {
+
+font-family: Helvetica, Arial;
+
+line-height: 1em;
+
+color: #BFEFFF;
+
+font-weight:bold;
+
+font-size: 48px;
+
+text-align:center;
+
+text-shadow:0px 0px 0 
+
+rgb(212,212,212),1px 1px 0 
+
+rgb(184,184,184),2px 2px 0 
+
+rgb(156,156,156),3px 3px 0 
+
+rgb(128,128,128), 4px 4px 0 
+
+rgb(100,100,100),5px 5px 4px 
+
+rgba(0,0,0,0.45),5px 5px 1px 
+
+rgba(0,0,0,0.5),0px 0px 4px 
+
+rgba(0,0,0,.2); }
 
 .promo .overview .summary li {
     margin-bottom: 15px;
@@ -142,7 +172,7 @@ a:hover {
 
 /* ======= Footer ======= */
 .footer {
-    background: #707070;
+    background: #FFEECA;
     color: #fff;
     padding: 15px 0;
 }
@@ -202,18 +232,18 @@ a:hover {
     width: 100%;
     border: 1px dotted darkslategrey;
 }
-
+.body-copy p {color:#1E1E1E;}
 .content-footer {
   /* Layout Declarations */
   margin-top: 5em;
   padding: 4em 0;
   /* Appearance Rules */
-  background-color: #707070;
+  background-color:#8B7E66;
 }
 
 .content-footer > p {
   /* Typography Declarations */
-  color: white;
+  color: #1E1E1E;
 }
 
 .social {
@@ -251,9 +281,6 @@ label {
     margin-bottom: 20px;
 }
 
-
-
  
-
 
  
