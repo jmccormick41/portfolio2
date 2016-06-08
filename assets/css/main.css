@@ -233,12 +233,13 @@ rgba(0,0,0,.2); }
     border: 1px dotted darkslategrey;
 }
 .body-copy p {color:#1E1E1E;}
+
 .content-footer {
   /* Layout Declarations */
   margin-top: 5em;
   padding: 4em 0;
   /* Appearance Rules */
-  background-color:#8B7E66;
+  background-color:#FFA500;
 }
 
 .content-footer > p {
@@ -281,6 +282,6 @@ label {
     margin-bottom: 20px;
 }
 
- 
+ #contact p {text-align:center;}
 
  
