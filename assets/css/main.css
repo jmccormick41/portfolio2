@@ -21,7 +21,7 @@ a:hover {
     padding-top: 90px;
 }
 .has-pattern {
-    background: url('../images/diamondpattern.png') no-repeat left center;
+    background: url('../images/crimsonpattern.jpg') no-repeat left center;
     background-repeat: repeat;
     background-position: left top;
 }
@@ -157,13 +157,13 @@ rgba(0,0,0,0.5),0px 0px 4px
 
 rgba(0,0,0,.2); }
 
-.promo .overview .summary li {
+.promo .overview .summary p {font-family: Optima;
     margin-bottom: 15px;
     list-style: none;
     font-size: 20px;
     font-weight: 300;
     padding-left: 30px;
-    background: url('../images/bullet.png') no-repeat left center;
+    color:#ffffff;
 }
 .promo a {
     color: #fff;
