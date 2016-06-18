@@ -1,6 +1,6 @@
 /* ======= Base ======= */
 body {
-    font-family: 'Lato', arial, sans-serif;
+    font-family: arial, sans-serif;
     color: #444444;
 }
 a {
@@ -21,9 +21,7 @@ a:hover {
     padding-top: 90px;
 }
 .has-pattern {
-    background: url('../images/crimsonpattern.jpg') no-repeat left center;
-    background-repeat: repeat;
-    background-position: left top;
+    background-color:#131820;
 }
 
 /* ======= Header ======= */
@@ -42,8 +40,8 @@ a:hover {
     font-size: 28px;
     max-height: 50px;
 }
-.header h1.logo a {
-    color: #FFA54F;
+.header h1.logo a { 
+    color: #FFA54F; 
 }
 .header h1.logo a img {
     margin-right: 5px;
@@ -104,7 +102,7 @@ a:hover {
 
 /* ======= Promo Section ======= */
 .promo {
-    background-color: #A0522D;
+    background-color: #004080;
     color: #fff;
 }
 .promo .container {
@@ -112,8 +110,8 @@ a:hover {
 }
 .promo .overview {
     margin-top: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
+  
+ 
 }
 .promo .title h2 {
     font-size: 60px;
@@ -122,47 +120,23 @@ a:hover {
 }
 .promo .overview .summary {
     margin-bottom: 60px;
-    margin-left: 70px;
-}
+   }
 
  h2 {
 
 font-family: Helvetica, Arial;
-
 line-height: 1em;
-
-color: #BFEFFF;
-
+color: #286da8;
 font-weight:bold;
-
 font-size: 48px;
-
 text-align:center;
+ }
 
-text-shadow:0px 0px 0 
-
-rgb(212,212,212),1px 1px 0 
-
-rgb(184,184,184),2px 2px 0 
-
-rgb(156,156,156),3px 3px 0 
-
-rgb(128,128,128), 4px 4px 0 
-
-rgb(100,100,100),5px 5px 4px 
-
-rgba(0,0,0,0.45),5px 5px 1px 
-
-rgba(0,0,0,0.5),0px 0px 4px 
-
-rgba(0,0,0,.2); }
-
-.promo .overview .summary p {font-family: Optima;
+.promo .overview .summary p {
     margin-bottom: 15px;
     list-style: none;
     font-size: 20px;
     font-weight: 300;
-    padding-left: 30px;
     color:#ffffff;
 }
 .promo a {
@@ -232,19 +206,19 @@ rgba(0,0,0,.2); }
     width: 100%;
     border: 1px dotted darkslategrey;
 }
-.body-copy p {color:#1E1E1E;}
+.body-copy  {color:#ffffff;}
 
 .content-footer {
   /* Layout Declarations */
   margin-top: 5em;
   padding: 4em 0;
   /* Appearance Rules */
-  background-color:#FFA500;
+  background-color:#191970;
 }
 
 .content-footer > p {
   /* Typography Declarations */
-  color: #1E1E1E;
+  color: #ffffff;
 }
 
 .social {
