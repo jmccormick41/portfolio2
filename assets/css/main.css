@@ -20,7 +20,7 @@ a:hover {
 .offset-header {
     padding-top: 90px;
 }
-.has-pattern {
+.has-pattern {background-image: url('../images/darkbluepattern.jpg');
     background-color:#131820;
 }
 
@@ -208,12 +208,12 @@ text-align:center;
 }
 .body-copy  {color:#ffffff;}
 
-.content-footer {
+.content-footer {background-image: url('../images/darksoftcloth.png');
   /* Layout Declarations */
   margin-top: 5em;
   padding: 4em 0;
   /* Appearance Rules */
-  background-color:#191970;
+  background-color:#7A7A7A;
 }
 
 .content-footer > p {
